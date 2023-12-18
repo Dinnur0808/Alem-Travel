@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tours.css">
+    <title>Турагентство</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://almaty.hh.kz/employer-logo/6310879.png" alt="Турагентство Лого">
+        </div>
+        <h1>Добро пожаловать в наше турагентство!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="tours.html">Туры</a></li>
+            <li><a href="About Us.html">О нас</a></li>
+            <li><a href="Contact.html">Контакты</a></li>
+            <li><a href="types of tours.html">Типы туров</a></li>
+            <li><a href="News.html">Новости</a></li>
+            <li><a href="shares.html">Акций</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+        </ul>
+    </nav>
+    <h2>Популярные туры</h2>
+    <section id="main-content">
+        
+        
+        <div class="tour">
+            <img src="https://www.orientaltravel.ru/img/tours/560/45257.jpg" alt="Тур 1">
+            <h3>Тур в США</h3>
+            <p>Проведите незабываемый отпуск в теплых странах!</p>
+            <button class="details-btn" onclick="showDetails('tour1')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://cdn.fishki.net/upload/post/2022/05/01/4135027/546b0a93d8b4aaafea822307294b12b0.jpg" alt="Тур 2">
+            <h3>Тур в Англию-Лондон</h3>
+            <p>Насладитесь культурой и красотой Лондона!</p>
+            <button class="details-btn" onclick="showDetails('tour2')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://almode.ru/uploads/posts/2023-01/1674587579_almode-ru-p-turtsiya-sultanakhmet-42.jpg" alt="Тур 3">
+            <h3> Тур в Турцию-Стамбул</h3>
+            <p>Узнавайте историю глубже и наслаждайтесь моментом!</p>
+            <button class="details-btn" onclick="showDetails('tour3')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663143955_49-mykaleidoscope-ru-p-gorod-dubai-instagram-50.jpg" alt="Тур 4">
+            <h3>Тур в Дубай</h3>
+            <p>Насладитесь отпуском в теплой стране,загарая на пляже!.</p>
+            <button class="details-btn" onclick="showDetails('tour4')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663186627_53-mykaleidoscope-ru-p-parizh-stolitsa-frantsii-vkontakte-61.jpg" alt="Тур 5">
+            <h3>Тур во Францию-Париж</h3>
+            <p>Копите себе воспоминание фотографиями с Парижа!.</p>
+            <button class="details-btn" onclick="showDetails('tour5')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663133319_12-mykaleidoscope-ru-p-venetsiya-italiya-krasivo-14.jpg" alt="Тур 6">
+            <h3>Тур в Венеция </h3>
+            <p>Путешествуйте по городу на лодке!.</p>
+            <button class="details-btn" onclick="showDetails('tour6')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://i.pinimg.com/originals/14/d8/25/14d82580cd9f111c0874985d4a91ae4d.jpg" alt="Тур 7">
+            <h3>Тур на Мальдивы </h3>
+            <p>Насладитесь отпуском лежа на пляже и пейте коктейль!.</p>
+            <button class="details-btn" onclick="showDetails('tour7')">Подробнее</button>
+        </div>
+        <div class="tour">
+            <img src="https://sportishka.com/uploads/posts/2022-02/1645484789_19-sportishka-com-p-bali-ostrov-turizm-krasivo-foto-21.jpg" alt="Тур 8">
+            <h3>Тур на Бали  </h3>
+            <p>Отдохните на все 100 бросая свои проблемы!.</p>
+            <button class="details-btn" onclick="showDetails('tour8')">Подробнее</button>
+        </div>
+        
+    </section>
+    
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title">Тур в США</h2>
+            <p id="modal-description"> </p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;2023 Alem TRAVEL. Все права защищены.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

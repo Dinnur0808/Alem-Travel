@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    background-color: #464545;
+    background-image: url('https://avatars.mds.yandex.net/i?id=91aec2dd009b7be944caba2bbbb79934bda06b41-10311550-images-thumbs&n=13.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.container {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: grid;
+    gap: 0px;
+    width: 400px;
+    height: 100%;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button  {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-weight: bold;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+input[type="text"],
+input[type="email"],
+input[type="radio"],
+input[type="password"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(25, 8, 253);
+    border-radius: 3px;
+}

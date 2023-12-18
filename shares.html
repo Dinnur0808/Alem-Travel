@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shares.css">
+    <title>Alem Travel - Акции и скидки</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://almaty.hh.kz/employer-logo/6310879.png" alt="Турагентство Лого">
+        </div>
+        <h1>Добро пожаловать в наше турагентство!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="main.html">Главная</a></li>
+            <li><a href="tours.html">Туры</a></li>
+            <li><a href="About Us.html">О нас</a></li>
+            <li><a href="Contact.html">Контакты</a></li>
+            <li><a href="types of tours.html">Типы туров</a></li>
+            <li><a href="News.html">Новости</a></li>
+            <li><a href="shares.html">Акций</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Alem Travel - Акции и скидки</h1>
+    </header>
+
+    <section>
+        <div class="promotion">
+            <h2>Летние скидки до 20%</h2>
+            <p>Бронируйте летние туры сейчас и получите скидку до 20%. Акция действует до 31 июля.</p>
+        </div>
+
+        <div class="promotion">
+            <h2>Розыгрыш путевки на Мальдивы</h2>
+            <p>Участвуйте в розыгрыше и получите шанс выиграть путевку на Мальдивы. Подробности акции на странице.</p>
+        </div>
+        <section class="places">
+            <div class="places-text">
+                <div class="cards">
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://i.ytimg.com/vi/RjgQTxWn7bk/maxresdefault.jpg">
+                            </div>
+                        </div>
+            
+                        <div class="text">
+                            <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                            <h2>Приключение в яркой Ванкувер</h2>
+                            <p class="cost">$999 / На одного человека</p>
+                            <div class="card-box">
+                                <p class="time">&#128339; 3 Дня</p>
+                                <p class="location">&#9992; Ванкувер, Канада</p>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://avatars.mds.yandex.net/get-marketcms/1533751/img-edfa3def-f66e-46c4-84e8-e76a20f7ff27.jpeg/optimize">
+                            </div>
+                        </div>
+            
+                        <div class="text">
+                            <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                            <h2>Приключение на Мальдивы </h2>
+                            <p class="cost">$999  / На одного человека</p>
+                            <div class="card-box">
+                                <p class="time">&#128339; 3 Дня</p>
+                                <p class="location">&#9992; Мальдивы, Мальдивы</p>
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="card">
+                        <div class="zoom-img">
+                            <div class="img-card">
+                                <img src="https://tripplanet.ru/wp-content/uploads/europe/monaco/dostoprimechatelnosti-monako.jpg">
+                            </div>
+                        </div>
+            
+                        <div class="text">
+                            <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                            <h2>Приключение в Монако</h2>
+                            <p class="cost">$999 / На одного человека</p>
+                            <div class="card-box">
+                                <p class="time">&#128339; 3 Дня</p>
+                                <p class="location">&#9992; Монако, Монако</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="акций.html" id="go-to-other-page" class="back-button">Забрать бесплатный сертификат на скидку!</a>
+
+    </section>
+
+    <div class="other-page">
+        <h2>Дополнительная страница</h2>
+        <p>Дополнительная информация о других акциях и розыгрышах.</p>
+        <a href="shares.html" id="go-back" class="back-button">Вернуться на основную страницу</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Alem Travel. Все права защищены.</p>
+    </footer>
+
+    <script>
+        const goToOtherPageButton = document.getElementById('go-to-other-page');
+        const goBackButton = document.getElementById('go-back');
+        const mainPage = document.querySelector('section');
+        const otherPage = document.querySelector('.other-page');
+
+        goToOtherPageButton.addEventListener('click', function () {
+            mainPage.style.display = 'none';
+            otherPage.style.display = 'block';
+        });
+
+        goBackButton.addEventListener('click', function () {
+            mainPage.style.display = 'block';
+            otherPage.style.display = 'none';
+        });
+    </script>
+
+        
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
+
+
+    

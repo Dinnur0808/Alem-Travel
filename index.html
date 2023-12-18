@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Регистрация Турагентства</title>
+</head>
+<body>
+   
+    <div class="container">
+        <form id="registrationForm">
+            <h2>Регистрация Турагентства</h2>
+            <div class="form-group">
+                <label for="Name">Имя</label>
+                <input type="text" id="Name" name="Name" required>
+            </div>
+            <div class="form-group">
+                <label for="Surname">Фамилия</label>
+                <input type="text" id="Surname" name="Surname" required>
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Дата рождения:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+            </div>
+
+            <label>Пол:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Мужчина</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Женщина</label><br>
+            <div class="form-group">
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Подтвердите пароль:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+            <div class="form-group">
+                <label for="country">Страна:</label>
+                <input type="text" id="country" name="country">
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div>
+                <label for="agreeToTerms">Соглашаюсь с Положениями и условиями:</label>
+        <input type="checkbox" id="agreeToTerms" name="agreeToTerms" required>
+            </div>
+            <button type="registrationForm" onclick="redirectToNewPage()">Зарегистрироваться</button>
+        </form>
+      </section>
+      
+      
+      
+      <script>
+        
+        function redirectToNewPage() {
+          
+          window.location.href = "login.html";
+        }
+      </script>
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+ 
+
